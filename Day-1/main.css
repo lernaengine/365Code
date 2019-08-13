@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+body {
+    background: rgba(0,0,0,.5) url('img/nasa.jpg') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    font-size:  18px;
+    background-blend-mode: multiply;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 100px 0;
+    /* background-color: rgba(255, 255, 255, .08); */
+    height: 8vh;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    width: 900px;
+    float: right;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#logo {
+    float: left;
+    
+}
+
+#logo a {
+    text-decoration: none;
+
+}
+
+#logo p {
+    display: inline;
+    margin-left: 15px;
+    font-size: 42px;
+    color: white;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+nav {
+    float: right;
+
+}
+nav ul li {
+    display: inline;
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 22px;
+    border-bottom: solid white 1px;
+    color: rgba(255, 255, 255, .4);
+}
+
+
+
+
+.cta {
+    position: relative;
+}
+
+h1, h3, .more {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 400px;
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+
+h3 {
+    margin-top: 20px;
+    animation-duration: 7s;
+    animation-delay: 1.2s;
+}
+
+button {
+    margin: 20px 15px;
+    display: inline;
+    padding: 12px 36px;
+    border-radius: 50px;
+    font-size: 18px;
+    animation-duration: 10s;
+    animation-delay: 1.8s;
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btn-b {
+    background: rgba(255, 255, 255, .1);
+    color: white;
+}
+
+.btn-a:hover {
+    background: rgba(255, 255, 255, .1);
+    color: white;
+}
+
+
+.btn-b:hover {
+    background: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+
+/* media 790 change nav to block */

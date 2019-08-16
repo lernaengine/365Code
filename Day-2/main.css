@@ -7,11 +7,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
 
 .container {
     margin:  0 auto;
-    max-width: 900px;
+    max-width: 50%;
+    display: block;
+}
+
+.center {
+    position: relative;
+    left: 35%;
+    top: 500px;
 }
 
 .slider {
@@ -42,4 +51,52 @@ body {
     border-radius: 50%;
     background: #4CAF50;
     cursor: pointer;
+  }
+
+  #music {
+      display: inline;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      left: 1.2%;
+  }
+
+  button {
+      background: rgba(0, 0, 0, 0);
+      border: none;
+      cursor: pointer;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  .music {
+      height: 30px;
+      padding: 0 20px;
+      margin: 20px 0;
+  }
+
+
+
+
+
+
+
+
+  #logo {
+      height: 150px;
+      position: relative;
+      left: 4.5%;
+      margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 24px;
+    background: -webkit-linear-gradient(#F90707, #EAFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 6.5%;
+    margin-bottom: 40px;
   }

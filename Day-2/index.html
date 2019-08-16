@@ -6,20 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+    <script src="music.js"></script>
     <div class="container">
-        <div>
-            <img src="" alt="">
-            <p>New World Music</p>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-            <div class="slidecontainer">
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-            </div>
+        <div class="center">
+                <div class="logo">
+                        <img src="saturn.png" alt="logo" id="logo">
+                        <p class="text">New World Music</p>
+                        <div id="music">
+                            <button><img src="fb.png" alt="Backwards" class="music"></button>
+                            <button onclick="play()" ><img src="play.png" alt="play" class="music"></button>
+                            <button onclick="pause()"><img src="stop.png" alt="stop" class="music"></button>
+                            <button><img src="ff.png" alt="forward" class="music"></button>
+                            <audio id="audio" src="FN.mp3" ></audio>
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="volume">
+                        </div>
+                    </div>
         </div>
     </div>
 </body>
